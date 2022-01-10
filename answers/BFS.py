@@ -20,7 +20,7 @@ def bfs(visited, graph, node):
 
     for neighbour in graph[s]:
       if neighbour not in visited:
-        visited.append(neighbour)
+        visited.add(neighbour)
         queue.append(neighbour)
 
 # Driver Code
