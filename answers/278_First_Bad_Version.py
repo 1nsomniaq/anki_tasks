@@ -24,7 +24,7 @@ class Solution(object):
         """
 
         left = 1
-        right = 1
+        right = n
 
         while left < right:
             pivot = left + (right - left) // 2
