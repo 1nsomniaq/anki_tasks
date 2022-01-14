@@ -15,11 +15,11 @@ Implement a function to find the first bad version. You should minimize the numb
 # @return a bool
 # def isBadVersion(version):
 
-import math
 class Solution(object):
     def firstBadVersion(self, n):
         """
         :type n: int
         :rtype: int
         """
+
 
