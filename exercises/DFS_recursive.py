@@ -8,9 +8,7 @@ graph = {
 }
 
 
-
 def dfs():  # function for dfs
-
 
 
 # start with '5'
