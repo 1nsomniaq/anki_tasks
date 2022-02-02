@@ -16,7 +16,8 @@ def dfs(visited, graph, root):  # function for dfs
         print(root)
         visited.add(root)
         for n in graph[root]:
-            dfs(visited, graph, n)
+            if n not in visited:
+                dfs(visited, graph, n)
 
 
 
